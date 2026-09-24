@@ -1,0 +1,10 @@
+Options -Indexes
+
+DirectoryIndex index.html
+
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+# Redirect the domain root to the German homepage.
+RewriteRule ^$ /de/ [R=302,L]

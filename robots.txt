@@ -1,3 +1,5 @@
 User-Agent: *
-Disallow: /
+Allow: /
 
+Host: https://pce-ei.de
+Sitemap: https://pce-ei.de/sitemap.xml
